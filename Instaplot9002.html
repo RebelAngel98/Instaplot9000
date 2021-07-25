@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Nine Lives of Chloe King</title>
+</head>
+<body>
+<h1>Something Weird</h1>
+<hr/>
+<p> Hello! Click Here </p>
+<button onclick="promptUserForInfo()">Click Here Instead</button>
+<button onclick="gettingToKnowYou()">Get To Know You</button>
+<button onclick="welcome()">Welcome</button>
+
+
+<p id="demo"></p>
+
+<script>
+    function promptUserForInfo() {
+        var person = prompt("What's your name", "Alexandria");
+        var age = prompt("How old art thou?", "20");
+        var favoriteColor = prompt("What's the best color to you?", "Black");
+        var dangerousAnimal = prompt("What is the most dangerous animal to you?", "Hippo");
+        var technology = prompt("Favorite piece of Technology?", "iPhone");
+        var authorityTitle = prompt("Someone who is above you is called a...?", "CEO");
+        var career = prompt("What's a one worded career name?", "Therapist");
+        var leastdangerousCareer = prompt("What's the least Dangerous Career you know of?", "Monkey Tamer");
+        var cats = prompt("How many cats are too many cats?", "30");
+        var videoGame = prompt("How many hours during the day do you waste your life to video games?", "70");
+        if (person != null) {
+            document.getElementById("demo").innerHTML = "Hi " + person + "! How was breakfast today? Even though you are too old to be eating breakfast at " + age + ". You said your favorite color was " + favoriteColor + ". A "+ dangerousAnimal +" was walking down the street, heading towards the crowd, in "+ favoriteColor +" sweats! My cousin pulled out a "+technology+" and recorded the whole thing. After watching the video on my cousin's "+technology+" my "+authorityTitle+" snapped at me for looking at the video. My "+career+" suggested I start to look for better things to do at work, however I disagreed. In the heat of my mid-life crisis at "+age+" I wanted to be a "+leastdangerousCareer+". Back when I had my apartment, I even had a total number of "+cats+" dogs! I need help, maybe even a total of "+videoGame+" hours per week of "+career+" to try and sort out these emotions."  ;
+        }
+    }
+
+    function gettingToKnowYou() {
+        document.writeln("Welcome to a personal theory. I'm making it so GlaDOS doesn't know about it.") ;
+        document.writeln("I'm going to have you explore the mind of what GlaDOS is going to do with the missiles of the world. Sounds scary, but I'll be with you every step of the way.") ;
+        document.writeln("So without hesitation, please click the next button and follow her instructions and just go with the story being told. I'm hoping she'lle expose something to you. Good luck.") ;
+    }
+    //GlaDOS is from Portals, she's the evil robot that I'm going to have be evil again in this as a function. Maybe it'll work out, or maybe it won't but honestly I'm more so thinking it won't.
+    //I'm planning on making two questions for the person, that are both unknown, and hopefully no one changes them because I'm just going to write it as it's unknown or something like that.
+    //She's going to be a high tech machine.
+
+    function welcome() {
+        var nuclear = prompt("How many nuclear warheads are in the world currently?", "Unknown");
+        var name = prompt("What is your name?", "Katie");
+        document.writeln("Hello " +name+ ". It's very interesting to know that someone else is out there, in the real world, not surrounded by computer hard wires and chips meant for memory. Before we start, I have a question I would like to ask you. If I could? Fantastic. How many nuclear warheads would you say are on the planet at this current time? "+nuclear+". Ah, I see. I should calculate it myself then. It shouldn't be too hard. However, you should do a few things for me. Do you see that start button in the corner? It should contain the power button, before clicking it, let me give you some instructions. Go to the welcome screen of the computer, and push the basic buttons of control, alt, and delete twice. Type Administrator in for the Username and leave the password blank, it'll have you type in a new password. After that is done, come back to me. You'll be able to fully see me.") ;
+    }
+    //So I wanted to make it where once you come back to this page, the whole page glitches out and in giant formatting it saids, "Why did you do this to us," but I figured to wait a bit and come back to this pet project a bti later when I can experiment a bit more.
+    //Everything looks right and I fixed some common mistakes.
+    //Mostly just looked at the notes that Rochelle took a picture of.
+    //GeeksForGeeks.org?/.com
+    //Remember app for phone!!!
+</script>
